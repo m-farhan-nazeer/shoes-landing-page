@@ -17,7 +17,6 @@ nav{
 }
 .logo{
     font-size: 37px;
-    font-weight: 400;
     text-transform: lowercase;
     height: 184px;
     width: 167px;
@@ -25,6 +24,7 @@ nav{
     color: #000000;
     border-bottom-right-radius: 68px;
     padding: 50px 16px 55px 21px;
+    letter-spacing: 1px;
     
 }
 .green{
@@ -37,6 +37,7 @@ nav{
     list-style: none;
     gap: 48px;
 
+    text-transform: lowercase;
 
     
 }
@@ -44,8 +45,8 @@ nav{
 .links-li a{
     text-decoration:none;
     color: black;
-    font-weight: 800;
     font-size: 14px;
+    letter-spacing: 0.5px;
 
 
 }
@@ -55,8 +56,65 @@ nav{
     display: flex;
     gap :23px;
     margin-right: 60px;
+    
 }
 
 .img-ul{
     list-style: none;
 }
+
+.log-img{
+    
+    object-fit:contain ;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.cont-btn h1{
+    font-size: 102px;
+    text-transform: lowercase;
+    width: 763px;
+    position: relative;
+    right: 350px;
+    letter-spacing: 2.5px;
+
+}
+
+.shoesimg{
+    width: 1066px;
+    height: 506px;
+    z-index: 1;
+    position: relative;
+    bottom:140px;
+    left: 39px;
+}
+
+.btnimg{
+    /* width: 412px;
+    height: 99px; */
+    object-fit: cover;
+    box-sizing: border-box;
+    z-index: 8;
+    position: relative;
+    right:150px;
+    top:40px
+    
+}
+.cont-btn{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.btnim{
+    width: 412px;
+    height: 99px;
+}
+
+
