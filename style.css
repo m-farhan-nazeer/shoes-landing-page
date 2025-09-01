@@ -1,21 +1,30 @@
-@font-face {
+ @font-face {
     font-family:"robo" ;
     src: url(ROBO.ttf);
 }
 
 *{
-    font-family: "robo",sans-serif;
+    font-family: "robo",sans-serif !important;
     
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-/*nav{
+
+
+nav{
     display: flex;
     justify-content: space-between;
+  
 }
-.logo{
+.navbar {
+  --bs-navbar-padding-y: 0 !important;
+
+}
+
+
+.logo1{
     font-size: 37px;
     text-transform: lowercase;
     height: 184px;
@@ -23,13 +32,49 @@
     background-color: #B3E140;
     color: #000000;
     border-bottom-right-radius: 68px;
-    padding: 50px 16px 55px 21px;
+    padding: 50px 16px 55px 21px; 
     letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
     
 }
+
+.navbar-brand {
+  --bs-navbar-brand-padding-y: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.navbar .container-fluid {
+  padding: 0 !important;
+}
+.navbar {
+  margin: 0 !important;
+}
+#btn{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.img-ul{
+    list-style: none;
+}
+
+.log-img{
+    
+    object-fit:contain ;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+}
+/*
 .green{
     margin-bottom: 11px;
-}
+} */
+/*
 
 .links-ul{
     margin: 50px;
@@ -50,26 +95,16 @@
 
 
 }
-
-.nav-img{
-    margin-top: 50px;
+*/
+/* .nav-img{
     display: flex;
     gap :23px;
-    margin-right: 60px;
+    /* margin-right: 60px; */
     
-}
 
-.img-ul{
-    list-style: none;
-}
 
-.log-img{
-    
-    object-fit:contain ;
-    width: 24px;
-    height: 24px;
-    box-sizing: border-box;
-}
+
+/*
 .container{
     display: flex;
     position: relative;
@@ -117,4 +152,4 @@
     height: 99px;
 }
 
- */ */
+ */ 
