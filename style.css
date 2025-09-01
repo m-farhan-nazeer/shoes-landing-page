@@ -11,7 +11,7 @@
     box-sizing: border-box;
 
 }
-nav{
+/*nav{
     display: flex;
     justify-content: space-between;
 }
@@ -99,7 +99,7 @@ nav{
 .btnimg{
     /* width: 412px;
     height: 99px; */
-    object-fit: cover;
+    /* object-fit: cover;
     box-sizing: border-box;
     z-index: 8;
     position: relative;
@@ -117,4 +117,4 @@ nav{
     height: 99px;
 }
 
-
+ */ */
