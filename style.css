@@ -11,17 +11,24 @@
     box-sizing: border-box;
 
 }
+.line {
+  width: 406px;
+  height: 2px;
+  border: none;
+  background-color: #B3E140;
+  /* background-color: linear-gradient( red 30%, blue );  */
+  margin: 3px;
+}
 
 
-nav{
+
+/* nav{
     display: flex;
     justify-content: space-between;
   
 }
-.navbar {
-  --bs-navbar-padding-y: 0 !important;
+*/
 
-}
 
 
 .logo1{
@@ -43,17 +50,15 @@ nav{
     
 }
 
-.navbar-brand {
-  --bs-navbar-brand-padding-y: 0;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
+
 .navbar .container-fluid {
   padding: 0 !important;
 }
 .navbar {
   margin: 0 !important;
 }
+
+/*
 #btn{
     position: fixed;
     top: 10px;
@@ -70,10 +75,10 @@ nav{
     height: 24px;
     box-sizing: border-box;
 }
-/*
-.green{
+/* */
+/* .green{
     margin-bottom: 11px;
-} */
+} */ 
 /*
 
 .links-ul{
