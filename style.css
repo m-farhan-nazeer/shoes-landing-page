@@ -93,7 +93,78 @@
     border: none;
     background-color:#75A304 ;
 }
+.f-container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    height: 800px;
+    width: 90vw;
+    margin: 0 auto;
+}
+.shoes-con{
+    position: absolute;
+    right: 208px;
+    bottom: 66px;
+    z-index: 1;
+}
+.text-con{
+    margin-top:40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+}
+.button-con{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    align-self: flex-end;
+}
+.button1{
+    font-size: 30px;
 
+}
+
+/* -----------------------second-page------------------ */
+.sec-con{
+    border-top-left-radius: 284px;
+    background-color: #B3E140;
+    margin-top: -100px;
+}
+.bg-con{
+    width: 90%;
+    margin: 0 auto;
+}
+.sec-head h1{
+    font-size: 122px;
+    color: #3D560026;
+}
+
+.sec-head h2{
+    font-size: 59px;
+    color: #000000;
+    margin-top: -60px;
+    margin-right: 20px;
+}
+.sec-head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/* ------------------------------cards------------------- */
+
+
+.card-con{
+    width:407px;
+    height: 423px;
+    position: relative;
+    background-color: #C3EB5F;;
+}
 
 /* .navbar .container-fluid {
   padding: 0 !important;
