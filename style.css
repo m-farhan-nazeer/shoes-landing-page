@@ -22,6 +22,7 @@
 
 
 
+
 /* nav{
     display: flex;
     justify-content: space-between;
@@ -44,19 +45,35 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 
 
     
 }
+@media only screen and (max-width: 576px) {
+    .logo1{
+        height: 140px;
+        width: 120px;
+        font-size: 20px;
+        padding: 3px;
+        border-bottom-right-radius: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: start;
 
 
-.navbar .container-fluid {
+    }
+    
+}
+
+
+/* .navbar .container-fluid {
   padding: 0 !important;
 }
 .navbar {
-  margin: 0 !important;
-}
+  margin: 0 !important; */
+
 
 /*
 #btn{
