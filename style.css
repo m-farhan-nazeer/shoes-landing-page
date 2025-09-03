@@ -82,7 +82,8 @@
 
 .h-cont h1{
     font-size: 102px;
-    color:#000000
+    color:#000000;
+    max-width:690px;
 }
 .button-con{
     width:412px;
@@ -94,25 +95,17 @@
     background-color:#75A304 ;
 }
 .f-container{
-    position: relative;
     display: flex;
     justify-content: flex-end;
-    height: 800px;
-    width: 90vw;
     margin: 0 auto;
 }
-.shoes-con{
-    position: absolute;
-    right: 208px;
-    bottom: 66px;
-    z-index: 1;
-}
+
 .text-con{
     margin-top:40px;
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     z-index: 0;
 }
 .button-con{
@@ -127,6 +120,16 @@
     font-size: 30px;
 
 }
+.shoes-con{
+    width: 40%;
+}
+.shoes{
+    width: 1166px;
+    margin-left: -80px;
+    margin-top: -90px;
+    position: relative;
+    z-index: 1;
+}
 
 /* -----------------------second-page------------------ */
 .sec-con{
@@ -135,7 +138,6 @@
     margin-top: -100px;
 }
 .bg-con{
-    width: 90%;
     margin: 0 auto;
 }
 .sec-head h1{
@@ -264,7 +266,29 @@
 }
 .t1{
     font-size: 203px;
+    color: #000000;
 }
+/* -------------------------------fourth-container-------------------- */
+
+.f-h{
+    font-size: 102px;
+   
+    color: #000000;
+}
+.f-p{
+    font-size:30px;
+}
+.fouth-con{
+    width: 600px;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+}
+
 /* .navbar .container-fluid {
   padding: 0 !important;
 }
