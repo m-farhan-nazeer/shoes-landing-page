@@ -232,7 +232,7 @@
 .conh4{
     display: flex;
     padding-left: 50px;
-    margin-top: -20px;
+    margin-top: -30px;
     width:407px;
     position: relative;
     z-index: 10;
@@ -240,13 +240,31 @@
 .first{
     display: flex;
     flex-direction: column;
+
 }
 .sec{
     display: flex;
     align-items: flex-end;
 }
+.year{
+    margin-top: -20px;
+}
+/* ------------------------------third-page----------------------------- */
 
+.third-con{
+        background-color: #B3E140;
+        padding-top: 20px;
 
+}
+.thi-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.t1{
+    font-size: 203px;
+}
 /* .navbar .container-fluid {
   padding: 0 !important;
 }
