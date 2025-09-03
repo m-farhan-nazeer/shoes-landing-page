@@ -163,8 +163,88 @@
     width:407px;
     height: 423px;
     position: relative;
-    background-color: #C3EB5F;;
+    background-color: #C3EB5F;
+    z-index: 9;
 }
+.card1{
+    margin-left: 30px;
+    margin-right: 10px;
+    z-index: 9;
+
+}
+.heart-con{
+    position: absolute;
+    top:50px;
+    left:35px;
+}
+.card1{
+    width:407px;
+    height: 423px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.cardi{
+    z-index: 0;
+    /* position: absolute; */
+    
+    font-size: 92px;
+    color:#94BD2F;
+    transform:rotate(-36.21deg);
+    z-index: 0;
+    position: absolute;
+    top:100px;
+    right: 95px;
+
+}
+.sh{
+    z-index: 1;
+    position: absolute;
+    right: 10px;
+    bottom: 55px;
+}
+
+.card-h{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 10px;
+    
+}
+.nikearir{
+    margin-left: 30px;
+}
+.c{
+    font-size:40px;
+    color: #000000;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* -------------------------below card------------- */
+
+.conh4{
+    display: flex;
+    padding-left: 50px;
+    margin-top: -20px;
+    width:407px;
+    position: relative;
+    z-index: 10;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+.sec{
+    display: flex;
+    align-items: flex-end;
+}
+
 
 /* .navbar .container-fluid {
   padding: 0 !important;
